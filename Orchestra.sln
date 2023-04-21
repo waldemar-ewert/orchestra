@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestra.Engine", "Orchestra.Engine\Orchestra.Engine.csproj", "{49FDE11E-2767-43E8-8908-40FFD305A512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compose", "Compose", "{46DE8AA8-DFB2-4F20-A8C3-957E4BBA63AC}"
+	ProjectSection(SolutionItems) = preProject
+		Compose\compose.yml = Compose\compose.yml
+		Compose\start.ps1 = Compose\start.ps1
+		Compose\stop.ps1 = Compose\stop.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestra.SampleClient", "Orchestra.SampleClient\Orchestra.SampleClient.csproj", "{FC44C11F-3500-47BB-8CED-A550E937A566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49FDE11E-2767-43E8-8908-40FFD305A512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FDE11E-2767-43E8-8908-40FFD305A512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FDE11E-2767-43E8-8908-40FFD305A512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FDE11E-2767-43E8-8908-40FFD305A512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC44C11F-3500-47BB-8CED-A550E937A566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC44C11F-3500-47BB-8CED-A550E937A566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC44C11F-3500-47BB-8CED-A550E937A566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC44C11F-3500-47BB-8CED-A550E937A566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FD382E4-05D3-48DA-A060-0B52157198B2}
+	EndGlobalSection
+EndGlobal
