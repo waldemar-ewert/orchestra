@@ -71,3 +71,5 @@ The engine schema consist of 3 types of tables:
   - like what state the process instance is dehydrated in, etc.
 - one system table for needs of the engine
   - like version of engine, etc.
+
+Database migrations deployed with host's database migrations through .NET standard mechanism.
