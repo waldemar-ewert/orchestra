@@ -1,6 +1,9 @@
 # Orchestra project
 
-Light workflow engine in C#
+Light workflow engine with processed expressed in plain C#, most likely for microservices.
+
+In scenarios where the resposibility for business process engine and use
+Unifying responsibility
 
 ## Main goals
 
