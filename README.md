@@ -1,3 +1,11 @@
+----------------------------------
+
+!!!! The curremt state is thinking about design of functionality !!!
+
+!!! how it should look like from end user's point of view (develope's point of view) !!!
+
+----------------------------------
+
 # Orchestra project
 
 Light workflow engine in C#
